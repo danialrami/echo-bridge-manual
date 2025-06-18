@@ -48,7 +48,7 @@ To exit factory reset mode without resetting. Power off the pedal and power it b
 
 #### Echo Bridge
 
-
+{to-do - what's the best way to show this?}
 ### Acknowledgements
 
 - The hardware is a Hothouse by [Cleveland Music Co](https://github.com/clevelandmusicco), which provided a base for development.
