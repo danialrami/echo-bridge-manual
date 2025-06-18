@@ -55,5 +55,5 @@ To exit factory reset mode without resetting. Power off the pedal and power it b
 
 - The hardware is a Hothouse by [Cleveland Music Co](https://github.com/clevelandmusicco), which provided a base for development.
 	- The algo and pedal is based on the Daisy Seed, which means that if you really wanted, you could reflash [a bunch of other effects](https://github.com/clevelandmusicco/HothouseExamples) onto this pedal! It's super fun and addicting
-- The software is a fork of [Flick](https://github.com/joulupukki/hothouse-effects/tree/main/src/Flick), with the Datorro reverb algo modified to be closer to the original Echo Bridge frequency curve. The controls work the same as the original, so feel free to try out the original effect to hear the difference!
+%%-  The software is a fork of [Flick](https://github.com/joulupukki/hothouse-effects/tree/main/src/Flick), with the Datorro reverb algo modified to be closer to the original Echo Bridge frequency curve. The controls work the same as the original, so feel free to try out the original effect to hear the difference! %%
 - This software is licensed under the GNU General Public License (GPL) for open-source use.
