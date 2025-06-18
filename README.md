@@ -21,7 +21,7 @@ A professional, retro-styled documentation website for the Echo Bridge audio eff
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/echo-bridge-manual.git
+   git clone https://github.com/danialrami/echo-bridge-manual
    cd echo-bridge-manual
    ```
 
@@ -35,7 +35,7 @@ A professional, retro-styled documentation website for the Echo Bridge audio eff
 
 4. **Deploy**
    - Push to GitHub
-   - Your `index.html` is ready for Hostinger or any static host
+   - Your `index.html` is ready for any static host
 
 ## 📁 Project Structure
 
