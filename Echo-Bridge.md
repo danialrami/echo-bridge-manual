@@ -33,16 +33,16 @@
 | FOOTSWITCH 1 | Save & Exit                 | Saves all parameters and exits Reverb Edit Mode.<br/>Long press to reflash firmware |
 | FOOTSWITCH 2 | Save & Exit                 | Saves all parameters and exits Reverb Edit Mode.                                    |
 
-### Factory Reset (Restore default reverb parameters)
+### Reset (Restore default reverb parameters)
 
-To enter factory reset mode, **press and hold** **Footswitch #2** when powering the pedal. The LED lights will alternate blinking slowly.
+To enter reset mode, **press and hold** **Footswitch #2** when powering the pedal. The LED lights will alternate, blinking slowly.
 
-1. Rotate Knob #1 to 100%. The LEDs will quickly flash simultaneously and start blinking faster.
-2. Rotate Knob #1 to 0%. The LEDs will quickly flash simultaneously and start blinking faster.
-3. Rotate Knob #1 to 100%. The LEDs will quickly flash simultaneously and start blinking faster.
-4. Rotate Knob #1 to 0%. The LEDs will quickly flash simultaneously, defaults will be restored, and the pedal will resume normal pedal mode.
+1. Rotate Knob #1 to 100% -- the LEDs will quickly flash simultaneously and start blinking faster.
+2. Rotate Knob #1 to 0% -- the LEDs will quickly flash simultaneously and start blinking faster.
+3. Rotate Knob #1 to 100% -- the LEDs will quickly flash simultaneously and start blinking faster.
+4. Rotate Knob #1 to 0% -- the LEDs will quickly flash simultaneously, defaults will be restored, and the pedal will resume normal pedal mode.
 
-To exit factory reset mode without resetting. Power off the pedal and power it back on.
+To exit reset mode without resetting, power off the pedal and power it back on.
 
 ### Patches 
 
