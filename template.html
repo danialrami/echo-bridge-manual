@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo Bridge Manual | LUFS Audio</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky Header -->
+    <div class="sticky-header" id="sticky-header">
+        <div class="header-content">
+            <a href="#top" class="logo-link" id="logo-top">
+                <div class="logo">{{FAVICON_SVG}}</div>
+            </a>
+            <div class="header-text">
+                <h1>Echo Bridge Manual</h1>
+                <p>LUFS Audio</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Animated Background -->
+        <div class="animated-background" id="animated-background"></div>
+        
+        <div class="main-header" id="top">
+            <div class="header-content">
+                <div class="logo-section">
+                    <a href="#top" class="logo-link">
+                        <div class="logo">{{FAVICON_SVG}}</div>
+                    </a>
+                    <div class="header-text">
+                        <h1>Echo Bridge Manual</h1>
+                        <p>Effects Pedal Documentation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="manual-content">
+            {{MARKDOWN_CONTENT}}
+        </div>
+
+        <!-- Retro Buttons Section -->
+        <div class="retro-buttons">
+            <div class="buttons-container">
+                {{BUTTON_CONTENT}}
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 LUFS Audio</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
