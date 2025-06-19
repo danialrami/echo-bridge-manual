@@ -46,9 +46,7 @@ To exit reset mode without resetting, power off the pedal and power it back on.
 
 ## Patches 
 
-still figuring out how best to render the delay/trem footswitch light, so for right now its off for all of them! haha sorry, use your imagination! 
-
-and if you find a setting that you like, let me know and i'll add it here!
+Still figuring out how best to render the delay/trem footswitch light, so for right now its off for all of them! haha sorry, use your imagination! And if you find a setting that you like, let me know and i'll add it here!
 
 ### Echo Bridge
 
