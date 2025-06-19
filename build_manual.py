@@ -115,7 +115,7 @@ def create_pedal_diagram(patch_settings, patch_name="Patch"):
                    fontfamily='monospace')
         
         # Label - better positioning and smaller text
-        ax.text(x, y-35, knob_labels[i], ha='center', va='center',
+        ax.text(x, y-30, knob_labels[i], ha='center', va='center',
                fontsize=8, weight='bold', color=LUFS_WHITE,
                fontfamily='monospace')
     
@@ -134,13 +134,13 @@ def create_pedal_diagram(patch_settings, patch_name="Patch"):
         
         # Switch position indicator
         if switch_settings[i] < 0.33:
-            indicator_y = y + 4
-            indicator_color = LUFS_RED
+            indicator_y = y - 4
+            indicator_color = LUFS_BLUE
         elif switch_settings[i] < 0.67:
             indicator_y = y
-            indicator_color = LUFS_YELLOW
+            indicator_color = LUFS_BLUE
         else:
-            indicator_y = y - 4
+            indicator_y = y + 4
             indicator_color = LUFS_BLUE
             
         ax.plot([x-8, x+8], [indicator_y, indicator_y], 
