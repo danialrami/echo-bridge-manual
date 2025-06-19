@@ -266,7 +266,7 @@ Echo Bridge is a versatile reverb, tremolo, and delay pedal that started as an e
 - **Plate-y Reverb**: Classic plate reverb emulation
 - **Tremolo Delay**: Rhythmic, asynchronous pulsing textures
 - **Ambient Wash**: Lush atmospheric soundscapes
-- **Slapback Echo**: Quick punchy delays for rock and country
+- **Slapback Echo**: Quick punchy delays for indie and country
 
 ---
 
