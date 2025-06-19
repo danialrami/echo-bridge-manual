@@ -1,4 +1,6 @@
-Echo Bridge is a reverb, tremolo, and delay pedal. The original goal of this pedal was to emulate the sound of the bridge by Tandem, but I got carried away and now it's more like a Strymon Flint + delay lol. It can still do Echo Bridge -- as well as many other spaces 🤝 see patch notes below.
+Echo Bridge is a reverb, tremolo, and delay pedal. The original goal of this pedal was to emulate the sound of the bridge by Tandem, but I got carried away and now it's more like a Strymon Flint + delay lol. It can still do Echo Bridge -- as well as many other spaces 🤝 
+
+I'll be updating this manual as I figure out better ways to render pedal settings 🐒
 
 ## Controls (Normal Mode)
 
@@ -125,7 +127,7 @@ Lush, atmospheric reverb with slow tremolo and long delay for ambient soundscape
 
 ### Slapback Echo
 
-Quick, punchy slapback delay with minimal reverb - perfect for rock and country.
+Quick, punchy slapback delay with minimal reverb - perfect for indie and country.
 
 ```json
 {
