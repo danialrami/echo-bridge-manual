@@ -3,7 +3,7 @@
 # Echo Bridge Manual Build Script
 # Handles virtual environment activation and package management
 
-set -e  # Exit on any error
+set -e # Exit on any error
 
 echo "🔨 Echo Bridge Manual Builder"
 echo "==============================="
@@ -43,7 +43,6 @@ fi
 
 # Check and install required packages
 echo -e "${BLUE}📦 Checking required packages...${NC}"
-
 PACKAGES_NEEDED=()
 
 # Check for markdown
@@ -54,6 +53,11 @@ fi
 # Check for beautifulsoup4
 if ! python -c "from bs4 import BeautifulSoup" 2>/dev/null; then
     PACKAGES_NEEDED+=("beautifulsoup4")
+fi
+
+# Check for matplotlib
+if ! python -c "import matplotlib.pyplot" 2>/dev/null; then
+    PACKAGES_NEEDED+=("matplotlib")
 fi
 
 # Install missing packages
@@ -68,7 +72,7 @@ fi
 
 # Verify packages are working
 echo -e "${BLUE}🔍 Verifying package installation...${NC}"
-if python -c "import markdown; from bs4 import BeautifulSoup; print('✅ All packages imported successfully')" 2>/dev/null; then
+if python -c "import markdown; from bs4 import BeautifulSoup; import matplotlib.pyplot; print('✅ All packages imported successfully')" 2>/dev/null; then
     echo -e "${GREEN}✅ Package verification successful${NC}"
 else
     echo -e "${RED}❌ Package verification failed${NC}"
@@ -101,7 +105,6 @@ fi
 # Deactivate virtual environment
 deactivate
 echo -e "${GREEN}✅ Virtual environment deactivated${NC}"
-
 echo -e "${GREEN}🏁 All done! Your manual is ready to deploy.${NC}"
 
 # Optional: Open the manual in browser (uncomment if you want this)

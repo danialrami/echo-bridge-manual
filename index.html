@@ -260,7 +260,7 @@
 
         <div class="manual-content">
             <p>Echo Bridge is a reverb, tremolo, and delay pedal. The original goal of this pedal was to emulate the sound of the bridge by Tandem, but I got carried away and now it's more like a Strymon Flint + a delay lol. It can still do Echo Bridge -- as well as many other spaces -- and is an all around fun time-based multi-effect 🤝 see patch notes below.</p>
-<h3 id="controls-normal-mode">Controls (Normal Mode)</h3>
+<h2 id="controls-normal-mode">Controls (Normal Mode)</h2>
 <table>
 <thead>
 <tr>
@@ -327,7 +327,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="controls-reverb-edit-mode">Controls (Reverb Edit Mode)</h3>
+<h2 id="controls-reverb-edit-mode">Controls (Reverb Edit Mode)</h2>
 <p><em>Both LEDs flash when in edit mode.</em></p>
 <table>
 <thead>
@@ -395,7 +395,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="reset-restore-default-reverb-parameters">Reset (Restore default reverb parameters)</h3>
+<h2 id="reset-restore-default-reverb-parameters">Reset (Restore default reverb parameters)</h2>
 <p>To enter reset mode, <strong>press and hold</strong> <strong>Footswitch #2</strong> when powering the pedal. The LED lights will alternate, blinking slowly.</p>
 <ol>
 <li>Rotate Knob #1 to 100% -- the LEDs will quickly flash simultaneously and start blinking faster.</li>
@@ -404,18 +404,88 @@
 <li>Rotate Knob #1 to 0% -- the LEDs will quickly flash simultaneously, defaults will be restored, and the pedal will resume normal pedal mode.</li>
 </ol>
 <p>To exit reset mode without resetting, power off the pedal and power it back on.</p>
-<h3 id="patches">Patches</h3>
-<h4 id="echo-bridge">Echo Bridge</h4>
-<p>{to-do - what's the best way to show this?}</p>
-<h4 id="to-do-more-patches">{TO-DO - more patches!}</h4>
-<h3 id="acknowledgements">Acknowledgements</h3>
+<h2 id="patches">Patches</h2>
+<p>this part of my website is kinda broken lmfao -- it's supposed to render a patch diagram with these settings. but trust its gonna look soooo sick when i figure this out. use your imagination! and if you find a setting that you like, let me know and i'll add it here!</p>
+<h3 id="echo-bridge">Echo Bridge</h3>
+<p>The classic Echo Bridge sound - warm reverb with extra subtle tremolo and a touch of delay to create THAT ambience.</p>
+<pre class="codehilite"><code class="language-json">{
+&quot;name&quot;: &quot;Echo Bridge&quot;,
+&quot;knobs&quot;: [0.35, 0.45, 0.25, 0.6, 0.4, 0.3],
+&quot;switches&quot;: [0.5, 0.0, 0.5]
+}
+</code></pre>
+
+<p><strong>Settings:</strong><br />
+- <strong>Reverb</strong>: 35% for warm, present reverb<br />
+- <strong>Tremolo</strong>: Slow sine wave (45% speed, 25% depth) for gentle movement<br />
+- <strong>Delay</strong>: Medium time (60%) with moderate feedback (40%) and subtle mix (30%)<br />
+- <strong>Switches</strong>: Dry/wet mix, sine wave, normal gain</p>
+<h3 id="spring-reverb-tank">Spring Reverb Tank</h3>
+<p>Classic spring reverb emulation - perfect for surf, rockabilly, or any vintage tone.</p>
+<pre class="codehilite"><code class="language-json">{
+&quot;name&quot;: &quot;Spring Reverb Tank&quot;,
+&quot;knobs&quot;: [0.7, 0.0, 0.0, 0.0, 0.0, 0.0],
+&quot;switches&quot;: [1.0, 0.5, 0.5]
+}
+</code></pre>
+
+<p><strong>Settings:</strong><br />
+- <strong>Reverb</strong>: 70% wet signal for that classic dripping spring sound<br />
+- <strong>Tremolo &amp; Delay</strong>: Off - pure reverb tone<br />
+- <strong>Switches</strong>: 100% wet mode for maximum spring character</p>
+<h3 id="tremolo-delay">Tremolo Delay</h3>
+<p>Rhythmic tremolo paired with a synced delay for complex, pulsing textures.</p>
+<pre class="codehilite"><code class="language-json">{
+&quot;name&quot;: &quot;Tremolo Delay&quot;,
+&quot;knobs&quot;: [0.15, 0.7, 0.6, 0.5, 0.45, 0.4],
+&quot;switches&quot;: [0.5, 1.0, 1.0]
+}
+</code></pre>
+
+<p><strong>Settings:</strong><br />
+- <strong>Reverb</strong>: Minimal (15%) to keep things tight<br />
+- <strong>Tremolo</strong>: Fast square wave (70% speed, 60% depth) for choppy rhythm<br />
+- <strong>Delay</strong>: Medium time with moderate feedback, balanced mix<br />
+- <strong>Switches</strong>: Dry/wet mix, square wave, plus gain to compensate for tremolo</p>
+<h3 id="ambient-wash">Ambient Wash</h3>
+<p>Lush, atmospheric reverb with slow tremolo and long delay for ambient soundscapes.</p>
+<pre class="codehilite"><code class="language-json">{
+&quot;name&quot;: &quot;Ambient Wash&quot;,
+&quot;knobs&quot;: [0.8, 0.2, 0.3, 0.85, 0.7, 0.5],
+&quot;switches&quot;: [0.0, 0.5, 0.0]
+}
+</code></pre>
+
+<p><strong>Settings:</strong><br />
+- <strong>Reverb</strong>: High (80%) for maximum space<br />
+- <strong>Tremolo</strong>: Very slow triangle wave for gentle movement<br />
+- <strong>Delay</strong>: Long time (85%) with high feedback (70%) for cascading echoes<br />
+- <strong>Switches</strong>: Wet-only reverb, triangle wave, no makeup gain</p>
+<h3 id="slapback-echo">Slapback Echo</h3>
+<p>Quick, punchy slapback delay with minimal reverb - perfect for rockabilly and country.</p>
+<pre class="codehilite"><code class="language-json">{
+&quot;name&quot;: &quot;Slapback Echo&quot;,
+&quot;knobs&quot;: [0.2, 0.0, 0.0, 0.25, 0.15, 0.6],
+&quot;switches&quot;: [0.5, 0.5, 0.5]
+}
+</code></pre>
+
+<p><strong>Settings:</strong><br />
+- <strong>Reverb</strong>: Subtle (20%) room sound<br />
+- <strong>Tremolo</strong>: Off for clean attack<br />
+- <strong>Delay</strong>: Short time (25%) with minimal feedback (15%) and present mix (60%)<br />
+- <strong>Switches</strong>: All middle positions for balanced tone</p>
+<h2 id="acknowledgements">Acknowledgements</h2>
 <ul>
 <li>The hardware is a Hothouse by <a href="https://github.com/clevelandmusicco">Cleveland Music Co</a>, which provided a base for development.<ul>
 <li>The algo and pedal is based on the Daisy Seed, which means that if you really wanted, you could reflash <a href="https://github.com/clevelandmusicco/HothouseExamples">a bunch of other effects</a> onto this pedal! It's super fun and addicting</li>
 </ul>
 </li>
 <li>The software is a fork of <a href="https://github.com/joulupukki/hothouse-effects/tree/main/src/Flick">Flick</a>, with the Datorro reverb algo modified to be closer to the original Echo Bridge frequency curve. The controls work the same as the original, so feel free to try out the original effect to hear the difference!</li>
-<li>This software is licensed under the GNU General Public License (GPL) for open-source use.</li>
+<li>This software is licensed under the GNU General Public License (GPL) for open-source use. This means that this effect is never going to be put up for sale  --  just hit me up and i'll make you one if you can get me the parts.<ul>
+<li>The code for this website is also open source! Check out the repo on <a href="https://github.com/danialrami/echo-bridge-manual">Github</a>.</li>
+</ul>
+</li>
 </ul>
         </div>
 
