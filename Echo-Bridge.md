@@ -46,7 +46,9 @@ To exit reset mode without resetting, power off the pedal and power it back on.
 
 ## Patches 
 
-this part of my website is kinda broken lmfao -- it's supposed to render a patch diagram with these settings. but trust its gonna look soooo sick when i figure this out. use your imagination! and if you find a setting that you like, let me know and i'll add it here!
+still figuring out how best to render the delay/trem footswitch light, so for right now its off for all of them! haha sorry, use your imagination! 
+
+and if you find a setting that you like, let me know and i'll add it here!
 
 ### Echo Bridge
 
@@ -60,7 +62,8 @@ The classic Echo Bridge sound - warm reverb with extra subtle tremolo and a touc
 }
 ```
 
-**Settings:**
+#### Settings: 
+
 - **Reverb**: 35% for warm, present reverb
 - **Tremolo**: Slow sine wave (45% speed, 25% depth) for gentle movement
 - **Delay**: Medium time (60%) with moderate feedback (40%) and subtle mix (30%)
@@ -72,13 +75,14 @@ Classic plate reverb - perfect for pretty much any vintage tone.
 
 ```json
 {
-"name": "Spring Reverb Tank",
+"name": "Plate-y Reverb",
 "knobs": [0.7, 0.0, 0.0, 0.0, 0.0, 0.0],
 "switches": [1.0, 0.5, 0.5]
 }
 ```
 
-**Settings:**
+#### Settings: 
+
 - **Reverb**: 70% wet signal for that classic dripping spring sound
 - **Tremolo & Delay**: Off - pure reverb tone
 - **Switches**: 100% wet mode for maximum spring character
@@ -95,7 +99,8 @@ Rhythmic tremolo paired with a synced delay for asynchronous, pulsing textures.
 }
 ```
 
-**Settings:**
+#### Settings: 
+
 - **Reverb**: Minimal (15%) to keep things tight
 - **Tremolo**: Fast square wave (70% speed, 60% depth) for choppy rhythm
 - **Delay**: Medium time with moderate feedback, balanced mix
@@ -113,7 +118,8 @@ Lush, atmospheric reverb with slow tremolo and long delay for ambient soundscape
 }
 ```
 
-**Settings:**
+#### Settings: 
+
 - **Reverb**: High (80%) for maximum space
 - **Tremolo**: Very slow triangle wave for gentle movement
 - **Delay**: Long time (85%) with high feedback (70%) for cascading echoes
@@ -131,7 +137,8 @@ Quick, punchy slapback delay with minimal reverb - perfect for rock and country.
 }
 ```
 
-**Settings:**
+#### Settings: 
+
 - **Reverb**: Subtle (20%) room sound
 - **Tremolo**: Off for clean attack
 - **Delay**: Short time (25%) with minimal feedback (15%) and present mix (60%)
