@@ -1,4 +1,4 @@
-Echo Bridge is a reverb, tremolo, and delay pedal. The original goal of this pedal was to emulate the sound of the bridge by Tandem, but I got carried away and now it's more like a Strymon Flint + a delay lol. It can still do Echo Bridge -- as well as many other spaces -- and is an all around fun time-based multi-effect 🤝 see patch notes below.
+Echo Bridge is a reverb, tremolo, and delay pedal. The original goal of this pedal was to emulate the sound of the bridge by Tandem, but I got carried away and now it's more like a Strymon Flint + delay lol. It can still do Echo Bridge -- as well as many other spaces 🤝 see patch notes below.
 
 ## Controls (Normal Mode)
 
