@@ -124,14 +124,13 @@ The build script automatically discovers and integrates any `*-button.html` file
 
 ### Adding New Patches
 Simply add a JSON code block in your markdown:
-```markdown
+
 ```json
 {
   "name": "Your Patch Name",
   "knobs": [0.5, 0.7, 0.3, 0.8, 0.4, 0.6],
   "switches": [0.0, 0.5, 1.0]
 }
-```
 ```
 
 The build script will automatically generate a diagram!
@@ -143,6 +142,7 @@ The build script will automatically generate a diagram!
 
 ### Modifying Colors
 Edit CSS variables in `styles.css`:
+
 ```css
 :root {
     --lufs-teal: #78BEBA;
