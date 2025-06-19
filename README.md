@@ -254,7 +254,7 @@ This project is licensed under the GNU General Public License (GPL) - see the [L
 
 - **Hardware**: [Hothouse](https://clevelandmusicco.com/hothouse-diy-digital-signal-processing-platform-kit/) by [Cleveland Music Co](https://github.com/clevelandmusicco)
 - **Software**: Fork of [Flick effect](https://github.com/joulupukki/hothouse-effects/tree/main/src/Flick)
-- **Platform**: Built on Daisy Seed
+- **Platform**: Built on [Daisy Seed](https://electro-smith.com/products/daisy-seed?variant=45234245140772)
 - **Design**: Inspired by 90s web aesthetics and DIY pedal culture
 
 ## 🎸 About Echo Bridge
