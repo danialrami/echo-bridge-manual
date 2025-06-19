@@ -68,7 +68,7 @@ The classic Echo Bridge sound - warm reverb with extra subtle tremolo and a touc
 
 ### Spring Reverb Tank
 
-Classic spring reverb emulation - perfect for surf, rockabilly, or any vintage tone.
+Classic spring reverb emulation - perfect for surf or any vintage tone.
 
 ```json
 {
@@ -85,7 +85,7 @@ Classic spring reverb emulation - perfect for surf, rockabilly, or any vintage t
 
 ### Tremolo Delay
 
-Rhythmic tremolo paired with a synced delay for complex, pulsing textures.
+Rhythmic tremolo paired with a synced delay for asynchronous, pulsing textures.
 
 ```json
 {
@@ -121,7 +121,7 @@ Lush, atmospheric reverb with slow tremolo and long delay for ambient soundscape
 
 ### Slapback Echo
 
-Quick, punchy slapback delay with minimal reverb - perfect for rockabilly and country.
+Quick, punchy slapback delay with minimal reverb - perfect for rock and country.
 
 ```json
 {
