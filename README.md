@@ -224,14 +224,13 @@ The `Echo-Bridge.md` file uses standard Markdown with special features:
 ```
 
 ### Patch Diagrams
-```markdown
+
 ```json
 {
   "name": "Ambient Wash",
   "knobs": [0.8, 0.2, 0.3, 0.85, 0.7, 0.5],
   "switches": [0.0, 0.5, 0.0]
 }
-```
 ```
 
 ### Special Formatting

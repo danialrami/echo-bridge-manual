@@ -773,3 +773,12 @@ body {
     }
 }
 
+::selection {
+    background-color: var(--lufs-yellow);
+    color: var(--lufs-black);
+}
+
+::-moz-selection {
+    background-color: var(--lufs-yellow);
+    color: var(--lufs-black);
+}
