@@ -66,9 +66,9 @@ The classic Echo Bridge sound - warm reverb with extra subtle tremolo and a touc
 - **Delay**: Medium time (60%) with moderate feedback (40%) and subtle mix (30%)
 - **Switches**: Dry/wet mix, sine wave, normal gain
 
-### Spring Reverb Tank
+### Plate-y Reverb
 
-Classic spring reverb emulation - perfect for surf or any vintage tone.
+Classic plate reverb - perfect for pretty much any vintage tone.
 
 ```json
 {
